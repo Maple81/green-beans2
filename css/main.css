@@ -1,0 +1,119 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+
+#about, #bottom {
+    height: 400px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 350px;
+    margin: 0 auto;
+    float: left;
+}
+
+/******HEADER*******/
+
+
+header {
+    height: 110px;
+    border-bottom: 3px solid #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 38px 0;
+}
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#77a466;
+}
+
+
+
+/******ABOUT******/
+
+#about 
+.full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+   font-size: 18px;
+    padding-left: 20px;
+    color: limegreen;
+    line-height: 23px;
+}
+
+#about p {
+    font-size: 12px;
+    font-variant: bold;
+    color: palegreen;
+}
+
+/******BOTTOM******/
+
+#bottom p {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#bottom h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#bottom ul li a {
+	color: limegreen;
+	font-variant: underline;
+}
+
+
+
+/******FOOTER******/
+
+#Powered h4 {
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
